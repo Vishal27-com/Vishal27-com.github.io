@@ -1,0 +1,23 @@
+.container{
+    margin-top: 10px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(162, 161, 161);
+}
+.imgBox{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introBox{
+
+width: 100%;
+text-align: center;
+font-family: Poppins;
+font-weight: bold;
+}
+.downloadBtn{
+    border: 1px solid #FF5349;
+    color-scheme: #FF5349;
+    color: #FFF;
+}

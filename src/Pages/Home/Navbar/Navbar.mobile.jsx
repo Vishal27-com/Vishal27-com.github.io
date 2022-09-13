@@ -1,0 +1,65 @@
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Img, SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
+import React from 'react';
+import logo from "../../../Resources/logo.png"
+import styles from "./Navbar.module.css";
+const NavbarMobile = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const btnRef = React.useRef()
+    return (
+        <Box display={["block","block","none"]} p='0 20px'>
+       <Flex justify="space-between" align="center">
+       <Box>
+       <Text 
+                color="#FF5349" 
+                fontFamily='Poppins' 
+                fontSize='30px'
+                fontWeight='bold'>VG</Text>
+       </Box> 
+      <Button ref={btnRef}  onClick={onOpen} bg="white">
+        <VStack spacing={1}>
+        <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
+        <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
+        <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
+        </VStack>
+      </Button>
+      </Flex>     
+      <Drawer
+        isOpen={isOpen}
+        placement='top'
+        onClose={onClose}
+        finalFocusRef={btnRef}
+      >
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerCloseButton />
+          <DrawerHeader><Text 
+                color="#FF5349" 
+                fontFamily='Poppins' 
+                fontSize='30px'
+                fontWeight='bold'>VG</Text></DrawerHeader>
+          <DrawerBody>
+           <SimpleGrid columns={[1,2]} spacing={5} >
+           <Box className={styles.tab}>
+               <Text>About me</Text>
+            </Box>
+            <Box className={styles.tab}>
+               <Text>Education</Text>
+            </Box>
+            <Box className={styles.tab}>
+               <Text>Skills</Text>
+            </Box>
+            <Box className={styles.tab}>
+               <Text>Projects</Text>
+            </Box>
+            <Box className={styles.tab}>
+                <Text>Contact me</Text>
+            </Box>
+           </SimpleGrid>
+          </DrawerBody>
+        </DrawerContent>
+      </Drawer>
+    </Box>
+    );
+};
+
+export default NavbarMobile;

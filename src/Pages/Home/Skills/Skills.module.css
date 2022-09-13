@@ -1,0 +1,11 @@
+.techCont{
+    margin-top: 30px;
+    font-family: Poppins;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(160, 159, 159);
+}
+.frontend,.backend{
+    margin:20px auto;
+    width: 80%;
+    padding: 20px;
+}

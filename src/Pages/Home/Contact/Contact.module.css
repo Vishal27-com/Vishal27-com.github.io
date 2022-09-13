@@ -1,0 +1,32 @@
+.form{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    /* width: 60%; */
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr); 
+    grid-template-rows: repeat(5,40px); 
+    gap: 20px; 
+}
+.form>textarea{
+    padding: 10px;
+    grid-area:2/2/5/7;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    outline: none;
+}
+.form>input{
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    outline: none;
+}
+#but{
+   grid-area:5/6/6/7 ;
+   cursor: pointer;
+}
+#but:hover{
+  background-color: rgb(20, 242, 20);
+  
+}
