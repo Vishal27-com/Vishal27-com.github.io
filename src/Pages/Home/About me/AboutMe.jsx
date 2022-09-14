@@ -1,5 +1,5 @@
 import { Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Vishal from "../../../Resources/Vishal.png"
 import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
 import Typewriter from "typewriter-effect";
@@ -15,7 +15,7 @@ const AboutMe = () => {
         image:Vishal
     })
     return (
-        <Box className={styles.container}>
+        <Box className={styles.container} id='about'>
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>
@@ -42,7 +42,7 @@ const AboutMe = () => {
             {state.titleThree}
         </Text>
         <a href={Resume} download={Resume}>
-        <Button m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
+        <Button  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
         >Download Resume</Button></a>
         <Contact />
         </Box>

@@ -1,6 +1,5 @@
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Img, SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex,  SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
-import logo from "../../../Resources/logo.png"
 import styles from "./Navbar.module.css";
 const NavbarMobile = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -40,19 +39,19 @@ const NavbarMobile = () => {
           <DrawerBody>
            <SimpleGrid columns={[1,2]} spacing={5} >
            <Box className={styles.tab}>
-               <Text>About me</Text>
+           <Text><a href='#about'>About me</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Education</Text>
+            <Text><a href='#skills'>Skills</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Skills</Text>
+            <Text><a href='#projects'>Projects</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Projects</Text>
+            <Text><a href='#statistics'>Statistics</a></Text>
             </Box>
             <Box className={styles.tab}>
-                <Text>Contact me</Text>
+            <Text><a href='#contact'>Contact me</a></Text>
             </Box>
            </SimpleGrid>
           </DrawerBody>

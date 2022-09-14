@@ -1,4 +1,4 @@
-import { Box, Button, Flex, HStack, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, HStack, Text } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import Carousel from './Carousel';
 import Aos from "aos";
@@ -9,8 +9,8 @@ const ProjectsCard = ({data}) => {
       },[])
     return (
         <Box  boxShadow='xl' w='80%' m='40px auto' data-aos='fade-left'>
-        <Flex direction={['column','column','row']} justify='center' align='center' >
-        <Box  w='50%'>
+        <Flex direction='column' justify='center' align={['left','left','center']} >
+        <Box w={['0','0','80%']} >
         <Carousel key={data.title} data={data}/>  
         </Box > 
         <Box p='10px'  align='left' fontFamily="Poppins" >
