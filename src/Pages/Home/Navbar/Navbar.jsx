@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from "../../../Resources/logo.png"
 import styles from "./Navbar.module.css";
-import {Box, Button, Flex, HStack, Img,  Text} from "@chakra-ui/react";
+import {Box, Button, Flex, HStack,  Text} from "@chakra-ui/react";
 import NavbarMobile from './Navbar.mobile';
 const Navbar = () => {
     return (

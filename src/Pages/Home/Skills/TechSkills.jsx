@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Flex, SimpleGrid, Text} from "@chakra-ui/react";
+import {Box, SimpleGrid, Text} from "@chakra-ui/react";
 import styles from "./Skills.module.css"
 import TechCard from './TechCard';
 import { backend, frontend, tools } from './techData';

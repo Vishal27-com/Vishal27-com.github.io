@@ -1,6 +1,5 @@
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Img, SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex,  SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
-import logo from "../../../Resources/logo.png"
 import styles from "./Navbar.module.css";
 const NavbarMobile = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()

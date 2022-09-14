@@ -30,3 +30,50 @@
   background-color: rgb(20, 242, 20);
   
 }
+@media all and (min-width:900px) and (max-width:1150px){
+    .form{
+        grid-template-columns: repeat(4,1fr); 
+        grid-template-rows: repeat(3,35px); 
+        gap: 20px; 
+    }
+    .form>textarea{
+        grid-area:2/4/4/5;
+    }
+   
+    #but{
+       grid-area:4/4/5/5 ;
+    }
+}
+@media all and (min-width:480px) and (max-width:900px){
+    .form{
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(4,35px); 
+        gap: 20px; 
+    }
+    .form>textarea{
+        grid-area:4/2/6/3;
+    }
+   
+    #but{
+       grid-area:6/2/7/3 ;
+    }
+}
+@media all and (min-width:100px) and (max-width:479px){
+    .form{
+        grid-template-columns: repeat(1,1fr); 
+        grid-template-rows: repeat(9,40px); 
+       gap:0px;
+    }
+    .form>textarea{
+        grid-area:8/1/10/2;
+    }
+   
+    #but{
+        display: block;
+        margin:20px auto;
+        width: 100px;
+       grid-area:10/1/11/2 ;
+    }
+   
+}
+
