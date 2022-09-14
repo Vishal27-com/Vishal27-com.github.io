@@ -7,7 +7,7 @@ import { backend, frontend, tools } from './techData';
 const TechSkills = () => {
    
     return (
-        <Box className={styles.techCont}>
+        <Box className={styles.techCont} id='skills'>
         <Box>
             <Text fontSize='40px'>Tech Skills</Text>
         </Box>  

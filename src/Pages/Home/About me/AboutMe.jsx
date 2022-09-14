@@ -15,7 +15,7 @@ const AboutMe = () => {
         image:Vishal
     })
     return (
-        <Box className={styles.container}>
+        <Box className={styles.container} id='about'>
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>

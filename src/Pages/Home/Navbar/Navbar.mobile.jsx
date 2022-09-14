@@ -39,19 +39,19 @@ const NavbarMobile = () => {
           <DrawerBody>
            <SimpleGrid columns={[1,2]} spacing={5} >
            <Box className={styles.tab}>
-               <Text>About me</Text>
+           <Text><a href='#about'>About me</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Education</Text>
+            <Text><a href='#skills'>Skills</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Skills</Text>
+            <Text><a href='#projects'>Projects</a></Text>
             </Box>
             <Box className={styles.tab}>
-               <Text>Projects</Text>
+            <Text><a href='#statistics'>Statistics</a></Text>
             </Box>
             <Box className={styles.tab}>
-                <Text>Contact me</Text>
+            <Text><a href='#contact'>Contact me</a></Text>
             </Box>
            </SimpleGrid>
           </DrawerBody>

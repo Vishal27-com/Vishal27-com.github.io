@@ -4,7 +4,7 @@ import Circle from './Circle';
 import commits from '../../../Resources/GithubCommits.png'
 const Statistics = () => {
     return (
-        <Box fontFamily='Poppins'>
+        <Box fontFamily='Poppins' id='statistics'>
         <Text  fontSize='40px' fontWeight='bold' m='40px 0 20px 0'>Statistics</Text>
         <SimpleGrid  columns={[1,2,3]} align='center'>
         <Circle text='1200+' head='Hours' subhead='of Full Stack Coding'/>

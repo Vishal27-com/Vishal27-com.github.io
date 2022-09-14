@@ -4,7 +4,7 @@ import ProjectsCard from './ProjectsCard';
 import { projects } from './ProjectsData';
 const Project = () => {
     return (
-        <Box borderBottom='1px solid rgb(160, 159, 159)'>
+        <Box borderBottom='1px solid rgb(160, 159, 159)' id='projects'>
             <Text fontFamily='Poppins' fontSize='40px' fontWeight='bold' mt='40px'>Projects</Text>
          {
             projects.map(p=>
