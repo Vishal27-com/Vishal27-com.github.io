@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Navbar.module.css";
-import {Box, Button, Flex, HStack,  Text} from "@chakra-ui/react";
+import {Box,  Flex, HStack,  Text} from "@chakra-ui/react";
 import NavbarMobile from './Navbar.mobile';
 const Navbar = () => {
     return (
