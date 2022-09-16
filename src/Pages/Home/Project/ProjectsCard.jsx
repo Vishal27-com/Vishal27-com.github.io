@@ -10,7 +10,7 @@ const ProjectsCard = ({data}) => {
     return (
         <Box  boxShadow='xl' w='80%' m='40px auto' data-aos='fade-left'>
         <Flex direction='column' justify='center' align={['left','left','center']} >
-        <Box w={['0','0','80%']} >
+        <Box w={['100%','100%','80%']} >
         <Carousel key={data.title} data={data}/>  
         </Box > 
         <Box p='10px'  align='left' fontFamily="Poppins" >
