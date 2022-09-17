@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.05bf354e.css",
-    "main.js": "/static/js/main.92c60b90.js",
+    "main.css": "/static/css/main.95976b51.css",
+    "main.js": "/static/js/main.1f60b287.js",
     "static/media/ssense1.png": "/static/media/ssense1.59489616e0fe31d701e3.png",
     "static/media/Vishal_Gupta_Resume.pdf": "/static/media/Vishal_Gupta_Resume.659cfbf6914a80fd3f03.pdf",
     "static/media/sugarcosmetics1.png": "/static/media/sugarcosmetics1.c0f4dfd52d46a7a4707f.png",
@@ -20,11 +20,11 @@
     "static/media/mongoose.png": "/static/media/mongoose.1329115bc89a4cd83658.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.05bf354e.css.map": "/static/css/main.05bf354e.css.map",
-    "main.92c60b90.js.map": "/static/js/main.92c60b90.js.map"
+    "main.95976b51.css.map": "/static/css/main.95976b51.css.map",
+    "main.1f60b287.js.map": "/static/js/main.1f60b287.js.map"
   },
   "entrypoints": [
-    "static/css/main.05bf354e.css",
-    "static/js/main.92c60b90.js"
+    "static/css/main.95976b51.css",
+    "static/js/main.1f60b287.js"
   ]
 }
