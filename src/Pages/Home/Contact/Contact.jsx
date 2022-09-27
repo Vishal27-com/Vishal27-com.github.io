@@ -1,8 +1,10 @@
-import { Box, Flex, Img } from '@chakra-ui/react';
+import { Box, Flex, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 import twitter from "../../../Resources/twitter.png"
 import github from "../../../Resources/github.png"
 import linkedin from "../../../Resources/linkedin.png"
+import phone from "../../../Resources/phone.ico"
+import gmail from "../../../Resources/gmail.png"
 const Contact = () => {
     return (
         <Box>
@@ -16,7 +18,14 @@ const Contact = () => {
         <Box  h='50px' w='50px'>
             <a href='https://twitter.com/VishalG271203'><Img src={twitter}  /></a>
         </Box>
-        </Flex>  
+        <Box  h='50px' w='50px' cursor='pointer' onClick={()=>alert('Mobile No. +91 9621480163')}>
+            <Img src={phone}  />
+        </Box>
+        <Box  h='50px' w='50px' cursor='pointer' onClick={()=>alert('Gmail-vishalgupta962148@gmail.com')}>
+            <Img src={gmail}  />
+        </Box>
+        </Flex> 
+        
         </Box>
     );
 };

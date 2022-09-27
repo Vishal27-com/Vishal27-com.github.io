@@ -5,6 +5,8 @@ import ssense4 from "../../../Resources/ssense4.png"
 import sugar1 from "../../../Resources/sugarcosmetics1.png"
 import sugar2 from "../../../Resources/sugarcosmetics2.png"
 import sugar3 from "../../../Resources/sugarcosmetics3.png"
+import tictactoe1 from "../../../Resources/tictactoe1.png"
+import tictactoe2 from "../../../Resources/tictactoe2.png"
 
 export const projects=[{
     image1:ssense1,
@@ -18,6 +20,18 @@ export const projects=[{
     stack:"HTML 5, CSS 3, Javascript.",
     code:"https://github.com/RohitMBelure/Project-SSENSE",
     links:"https://tangerine-bublanina-ddee4c.netlify.app/"
+},{
+    image1:tictactoe1,
+    image2:tictactoe2,
+    image3:tictactoe1,
+    image4:tictactoe2,
+    title:"Tic Tac Toe",
+    desc:"It is a simple tic tac toe game. It is used for entertainment.",
+    type:"It is an individual project.",
+    area:"Whole app.",
+    stack:"HTML 5, CSS 3, Javascript.",
+    code:"https://github.com/Vishal27-com/Tic-Tac-Toe/tree/main/my-app",
+    links:"https://vishaltictactoe.netlify.app/"
 },{
     image1:sugar1,
     image2:sugar2,
