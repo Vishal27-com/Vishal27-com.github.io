@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.95976b51.css",
-    "main.js": "/static/js/main.4c3eaf8e.js",
+    "main.js": "/static/js/main.b04af286.js",
     "static/media/ssense1.png": "/static/media/ssense1.59489616e0fe31d701e3.png",
     "static/media/Vishal_Gupta_Resume.pdf": "/static/media/Vishal_Gupta_Resume.000df5a1c111a1455825.pdf",
     "static/media/sugarcosmetics1.png": "/static/media/sugarcosmetics1.c0f4dfd52d46a7a4707f.png",
@@ -10,6 +10,7 @@
     "static/media/sugarcosmetics3.png": "/static/media/sugarcosmetics3.4eabd8cff49fcdc1bcb1.png",
     "static/media/ssense3.png": "/static/media/ssense3.b646250108a593308431.png",
     "static/media/ssense4.png": "/static/media/ssense4.188e4858d6630bca6cd6.png",
+    "static/media/phone.ico": "/static/media/phone.44ea04ff2c8e033368ef.ico",
     "static/media/sugarcosmetics2.png": "/static/media/sugarcosmetics2.2e4dd0d6e9e1e2a8401f.png",
     "static/media/netlify.png": "/static/media/netlify.63d286a96086fbcce027.png",
     "static/media/tictactoe2.png": "/static/media/tictactoe2.4d94d1752f5cc71d7981.png",
@@ -23,10 +24,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.95976b51.css.map": "/static/css/main.95976b51.css.map",
-    "main.4c3eaf8e.js.map": "/static/js/main.4c3eaf8e.js.map"
+    "main.b04af286.js.map": "/static/js/main.b04af286.js.map"
   },
   "entrypoints": [
     "static/css/main.95976b51.css",
-    "static/js/main.4c3eaf8e.js"
+    "static/js/main.b04af286.js"
   ]
 }
