@@ -1,6 +1,6 @@
 import { Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import Vishal from "../../../Resources/Vishal.png"
+import Vishal from "../../../Resources/Vishal.jpg"
 import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
 import Typewriter from "typewriter-effect";
 import styles from "./About.module.css"
@@ -19,7 +19,7 @@ const AboutMe = () => {
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>
-                <Img  src={state.image} alt='Vishal' w={["80%","300px","300px"]} borderRadius='100%' />
+                <Img h={["80%","300px","300px"]} src={state.image} objectFit='Cover' alt='Vishal' w={["80%","300px","300px"]} borderRadius='50%' />
             </Box>
         </Container>
         <Box className={styles.introBox}>
@@ -43,7 +43,7 @@ const AboutMe = () => {
         </Text>
         <a href={Resume} download={Resume}>
         <Button  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
-        >Download Resume</Button></a>
+        >Resume</Button></a>
         <Contact />
         </Box>
         </Flex>   

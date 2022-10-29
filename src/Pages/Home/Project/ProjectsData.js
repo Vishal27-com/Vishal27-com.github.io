@@ -2,13 +2,26 @@ import ssense1 from "../../../Resources/ssense1.png"
 import ssense2 from "../../../Resources/ssense2.png"
 import ssense3 from "../../../Resources/ssense3.png"
 import ssense4 from "../../../Resources/ssense4.png"
-import sugar1 from "../../../Resources/sugarcosmetics1.png"
-import sugar2 from "../../../Resources/sugarcosmetics2.png"
-import sugar3 from "../../../Resources/sugarcosmetics3.png"
 import tictactoe1 from "../../../Resources/tictactoe1.png"
 import tictactoe2 from "../../../Resources/tictactoe2.png"
+import getHarvest1 from "../../../Resources/getHarvest1.png"
+import getHarvest2 from "../../../Resources/getHarvest2.png"
+import getHarvest3 from "../../../Resources/getHarvest3.png"
+import getHarvest4 from "../../../Resources/getHarvest4.png"
 
 export const projects=[{
+    image1:getHarvest1,
+    image2:getHarvest2,
+    image3:getHarvest3,
+    image4:getHarvest4,
+    title:"Harvest - (Cloned)",
+    desc:"It is used to track time, expenses and creating invoices during individual or collaborative projects.",
+    type:"It was a collabarative project. There were 5 persons in this project.",
+    area:"To clone project, create project and project detail page.",
+    stack:"MongoDB, Express, Reactjs, Node, Redux, Chakra-Ui, Heroku.",
+    code:"https://github.com/SHARUN266/savory-science-7410",
+    links:"https://get-harvest-rct201clone.netlify.app/"
+},{
     image1:ssense1,
     image2:ssense2,
     image3:ssense3,
@@ -32,16 +45,4 @@ export const projects=[{
     stack:"HTML 5, CSS 3, Javascript.",
     code:"https://github.com/Vishal27-com/Tic-Tac-Toe/tree/main/my-app",
     links:"https://vishaltictactoe.netlify.app/"
-},{
-    image1:sugar1,
-    image2:sugar2,
-    image3:sugar3,
-    image4:sugar1,
-    title:"Sugar Cosmetics - (Cloned)",
-    desc:"It is used to buy cosmetics products like lipsticks, mascara, powder etc.",
-    type:"It was a collabarative project. There were 5 persons in this project.",
-    area:"To clone login and signup page.",
-    stack:"HTML 5, CSS 3, Javascript.",
-    code:"https://github.com/Sirajuddin135/sugarCosmetics",
-    links:"https://courageous-stroopwafel-1822e5.netlify.app/"
 }]

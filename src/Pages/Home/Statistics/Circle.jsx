@@ -4,7 +4,7 @@ import React from 'react';
 const Circle = ({text,head,subhead}) => {
     return (
         <Box fontFamily='Poppins'>   
-        <Box border='5px solid blue' h='150px' w='150px' borderRadius='100%' >
+        <Box border='5px solid blue' h='150px' w='150px' borderRadius='100%' bg='#fff' >
             <Flex h='150px' w='150px' justify='center' align='center'>
                 <Text fontSize='40px' fontWeight='bold' >
                 {text}

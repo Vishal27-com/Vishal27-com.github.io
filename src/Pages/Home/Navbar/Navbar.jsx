@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./Navbar.module.css";
-import {Box,  Flex, HStack,  Text} from "@chakra-ui/react";
+import {Box,  Button,  Flex, HStack,  Text} from "@chakra-ui/react";
 import NavbarMobile from './Navbar.mobile';
+import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
+
 const Navbar = () => {
+    const [navbar,setNavbar]=useState(false);
+    const changeNavbarBg=()=>{
+        if(window.scrollY>=60){
+            setNavbar(true);
+        }
+        else {
+            setNavbar(false);
+        }
+    }
+    window.addEventListener("scroll",changeNavbarBg);
     return (
-        <Box className={styles.nav}>
+        <Box  bg={navbar?"#fff":"#fcc74c"} position='sticky' top='0' zIndex={10} h='80px'>
         <Box display={["none","none","block"]}>
             <Flex className={styles.container}>
             <Box>
@@ -33,11 +45,14 @@ const Navbar = () => {
                 <Box className={styles.tab}>
                 <Text><a href='#contact'>Contact me</a></Text>
                 </Box>
+                <Box> <a href={Resume} download={Resume}>
+                <Button fontFamily='Poppins'  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
+                >Resume</Button></a></Box>
                 </HStack>
             </Box>
             </Flex>
         </Box>
-        <NavbarMobile />
+        <NavbarMobile navbar={navbar} />
         </Box>
     );
 };

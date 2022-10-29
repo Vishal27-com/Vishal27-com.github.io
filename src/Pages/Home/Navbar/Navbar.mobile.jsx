@@ -1,7 +1,7 @@
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex,  SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
 import styles from "./Navbar.module.css";
-const NavbarMobile = () => {
+const NavbarMobile = ({navbar}) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
     return (
@@ -14,8 +14,8 @@ const NavbarMobile = () => {
                 fontSize='30px'
                 fontWeight='bold'>VG</Text>
        </Box> 
-      <Button ref={btnRef}  onClick={onOpen} bg="white">
-        <VStack spacing={1}>
+      <Button ref={btnRef}  onClick={onOpen} bg={navbar?"#fff":"#fcc74c"}>
+        <VStack spacing={1} >
         <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
         <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
         <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
