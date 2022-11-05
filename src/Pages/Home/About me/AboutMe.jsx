@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
+import {  Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Vishal from "../../../Resources/Vishal.jpg"
 import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
@@ -18,7 +18,7 @@ const AboutMe = () => {
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>
-                <Avatar name='Vishal' src={state.image} h={["150px","300px","300px"]} w={["150px","300px","300px"]}  />
+                <Img  src={state.image} h={["150px","300px","300px"]} w={["150px","300px","300px"]} objectFit="cover" borderRadius='100%' />
             </Box>
         </Container>
         <Box className={styles.introBox}>

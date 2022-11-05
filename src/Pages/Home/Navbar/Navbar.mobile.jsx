@@ -1,6 +1,8 @@
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex,  SimpleGrid, Text, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
 import styles from "./Navbar.module.css";
+import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
+
 const NavbarMobile = ({navbar}) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
@@ -53,6 +55,8 @@ const NavbarMobile = ({navbar}) => {
             <Box className={styles.tab}>
             <Text><a href='#contact'>Contact me</a></Text>
             </Box>
+            <Box> <a href={Resume} download={Resume} >
+                <Button fontFamily='Poppins'  m='10px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}>Resume</Button></a></Box>
            </SimpleGrid>
           </DrawerBody>
         </DrawerContent>
