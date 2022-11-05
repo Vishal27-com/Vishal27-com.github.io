@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     window.addEventListener("scroll",changeNavbarBg);
     return (
-        <Box  bg={navbar?"#fff":"#fcc74c"} position='sticky' top='0' zIndex={10} h='80px'>
+        <Box  bg={navbar?"#fff":"#fcc74c"} position='sticky' top='0' zIndex={10} >
         <Box display={["none","none","block"]}>
             <Flex className={styles.container}>
             <Box>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Text><a href='#contact'>Contact me</a></Text>
                 </Box>
                 <Box> <a href={Resume} download={Resume}>
-                <Button fontFamily='Poppins'  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
+                <Button fontFamily='Poppins'  m='10px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
                 >Resume</Button></a></Box>
                 </HStack>
             </Box>

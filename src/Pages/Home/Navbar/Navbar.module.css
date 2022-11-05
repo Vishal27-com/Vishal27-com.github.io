@@ -10,7 +10,8 @@
 .tab{
     font-size: 18px;
     font-family:Poppins;
-    cursor: pointer; 
+    cursor: pointer;
+    font-weight: bold; 
 }
 .tab:hover{
     color:#FF5349

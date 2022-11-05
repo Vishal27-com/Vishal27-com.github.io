@@ -1,4 +1,4 @@
-import { Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
+import { Avatar, Box, Button, Container, Flex, Img, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Vishal from "../../../Resources/Vishal.jpg"
 import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
@@ -7,7 +7,6 @@ import styles from "./About.module.css"
 import Contact from '../Contact/Contact';
 
 const AboutMe = () => {
-   
     const [state]=useState({
         title:"Hi, I am",
         titleTwo:"Vishal Gupta",
@@ -19,14 +18,14 @@ const AboutMe = () => {
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>
-                <Img h={["80%","300px","300px"]} src={state.image} objectFit='Cover' alt='Vishal' w={["80%","300px","300px"]} borderRadius='50%' />
+                <Avatar name='Vishal' src={state.image} h={["150px","300px","300px"]} w={["150px","300px","300px"]}  />
             </Box>
         </Container>
         <Box className={styles.introBox}>
         <Text fontSize={['36px','36px','40px']}>{state.title}</Text>
         <Text fontSize={['36px','36px','40px']} color='#FF5349' >{state.titleTwo}</Text>
         <Text fontSize={['36px','36px','40px']} color='#FF5349' >
-            <Typewriter
+        <Typewriter
             options={{
                 autoStart:true,
                 loop:true,
@@ -43,7 +42,8 @@ const AboutMe = () => {
         </Text>
         <a href={Resume} download={Resume}>
         <Button  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
-        >Resume</Button></a>
+        >Resume</Button>
+        </a>
         <Contact />
         </Box>
         </Flex>   
