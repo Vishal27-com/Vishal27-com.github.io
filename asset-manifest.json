@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1fc73c9.css",
-    "main.js": "/static/js/main.0adf4cc4.js",
+    "main.js": "/static/js/main.78968d1a.js",
     "static/media/ssense1.png": "/static/media/ssense1.59489616e0fe31d701e3.png",
     "static/media/Vishal_Gupta_Resume.pdf": "/static/media/Vishal_Gupta_Resume.1d85d9a03e2136772241.pdf",
     "static/media/ssense2.png": "/static/media/ssense2.3ff6f3a4251727bad7d9.png",
@@ -18,17 +18,20 @@
     "static/media/nodejs.png": "/static/media/nodejs.007e99f68b718e476aba.png",
     "static/media/tictactoe1.png": "/static/media/tictactoe1.81eabb11cb5e0112df3b.png",
     "static/media/mongo.png": "/static/media/mongo.70a3d108cf1caad8e3a3.png",
+    "static/media/timer2.png": "/static/media/timer2.18263990b9a01ed0290e.png",
+    "static/media/timer1.png": "/static/media/timer1.8795b53965b820516639.png",
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/mongoose.png": "/static/media/mongoose.1329115bc89a4cd83658.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/stopWatch1.png": "/static/media/stopWatch1.a0dbd858818e80256ace.png",
     "static/media/VS-Code.png": "/static/media/VS-Code.d99ab65a08c3e4c5fd73.png",
     "index.html": "/index.html",
     "main.e1fc73c9.css.map": "/static/css/main.e1fc73c9.css.map",
-    "main.0adf4cc4.js.map": "/static/js/main.0adf4cc4.js.map"
+    "main.78968d1a.js.map": "/static/js/main.78968d1a.js.map"
   },
   "entrypoints": [
     "static/css/main.e1fc73c9.css",
-    "static/js/main.0adf4cc4.js"
+    "static/js/main.78968d1a.js"
   ]
 }
