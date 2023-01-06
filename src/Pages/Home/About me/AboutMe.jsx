@@ -4,7 +4,6 @@ import Vishal from "../../../Resources/Vishal.jpg"
 import Resume from "../../../Resources/Vishal_Gupta_Resume.pdf"
 import Typewriter from "typewriter-effect";
 import styles from "./About.module.css"
-import Contact from '../Contact/Contact';
 
 const AboutMe = () => {
     const [state]=useState({
@@ -40,11 +39,10 @@ const AboutMe = () => {
         <Text fontSize={['18px','18px','20px']} m='10px auto' w='90%'>
             {state.titleThree}
         </Text>
-        <a href={Resume} download={Resume}>
+        <a href={Resume} download={"Vishal-Gupta-Resume"}>
         <Button  m='30px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
         >Resume</Button>
         </a>
-        <Contact />
         </Box>
         </Flex>   
         </Box>

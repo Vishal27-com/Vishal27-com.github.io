@@ -45,7 +45,12 @@ const Navbar = () => {
                 <Box className={styles.tab}>
                 <Text><a href='#contact'>Contact me</a></Text>
                 </Box>
-                <Box> <a href={Resume} download={Resume} >
+                <Box> 
+                <a 
+                href={Resume} 
+                download="Vishal-Gupta-Resume"
+                rel='noopener'
+                >
                 <Button fontFamily='Poppins'  m='10px 0' bg='#FF5349' color='#FFF' borderRadius='20px' _hover={{bg:"#FF5349",transform:'scale(1.1)'}}
                 >Resume</Button></a></Box>
                 </HStack>

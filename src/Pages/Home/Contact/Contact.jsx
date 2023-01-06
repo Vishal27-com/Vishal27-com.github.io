@@ -1,7 +1,6 @@
-import { Box, Flex, Img, useToast } from '@chakra-ui/react';
+import { Box, Center, Flex, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 const Contact = () => {
-    const toast = useToast()
     return (
         <Box>
           <Flex justify='center' mt='20px' gap='30px'>
@@ -16,30 +15,13 @@ const Contact = () => {
                 <Img src="https://img.icons8.com/3d-fluency/94/000000/twitter-circled.png"/>
                 </a>
         </Box>
-        <Box  h='45px' w='45px' cursor='pointer' onClick={() =>
-        toast({
-          title: 'Phone Number',
-          description: "9621480163",
-          status: 'success',
-          duration: 9000,
-          isClosable: true,
-        })
-      }>
-            <Img  src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-phone-notifications-justicon-lineal-color-justicon.png"/>
-        </Box>
-        <Box  h='45px' w='45px' cursor='pointer' onClick={() =>
-        toast({
-          title: 'Email',
-          description: "vishalgupta962148@gmail.com",
-          status: 'success',
-          duration: 9000,
-          isClosable: true,
-        })
-      }>
-            <Img  src='https://img.icons8.com/3d-fluency/100/000000/google-logo.png' />
-        </Box>
-        </Flex> 
-        
+        </Flex>
+       <Center>
+      <Flex direction={['column','column','column']} gap='10px'> 
+      <Text fontSize='18px' fontWeight='bold'>Phone No- +91 9621480163</Text>
+      <Text fontSize='18px' fontWeight='bold'>Gmail- vishalgupta962148@gmail</Text>
+      </Flex>   
+        </Center> 
         </Box>
     );
 };

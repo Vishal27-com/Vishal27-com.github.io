@@ -8,6 +8,10 @@ import getHarvest1 from "../../../Resources/getHarvest1.png"
 import getHarvest2 from "../../../Resources/getHarvest2.png"
 import getHarvest3 from "../../../Resources/getHarvest3.png"
 import getHarvest4 from "../../../Resources/getHarvest4.png"
+import timer1 from "../../../Resources/timer1.png"
+import timer2 from "../../../Resources/timer2.png"
+import stopwatch1 from "../../../Resources/stopWatch1.png"
+import stopwatch2 from "../../../Resources/stopWatch2.png"
 
 export const projects=[{
     image1:getHarvest1,
@@ -18,7 +22,7 @@ export const projects=[{
     desc:"It is used to track time, expenses and creating invoices during individual or collaborative projects.",
     type:"It was a collabarative project. There were 5 persons in this project.",
     area:"To clone project, create project and project detail page.",
-    stack:"MongoDB, Express, Reactjs, Node, Redux, Chakra-Ui, Heroku.",
+    stack:"MongoDB, Express, Reactjs, Node, Redux, Chakra-Ui.",
     code:"https://github.com/SHARUN266/savory-science-7410",
     links:"https://get-harvest-rct201clone.netlify.app/"
 },{
@@ -42,7 +46,19 @@ export const projects=[{
     desc:"It is a simple tic tac toe game. It is used for entertainment.",
     type:"It is an individual project.",
     area:"Whole app.",
-    stack:"HTML 5, CSS 3, Javascript.",
+    stack:"HTML, CSS, Javascript, Reactjs, Chakra-UI.",
     code:"https://github.com/Vishal27-com/Tic-Tac-Toe/tree/main/my-app",
     links:"https://vishaltictactoe.netlify.app/"
+},{
+    image1:timer1,
+    image2:timer2,
+    image3:stopwatch1,
+    image4:stopwatch2,
+    title:"Google Timer - (Clone)",
+    desc:"It is a simple desktop timer and stopwatch clone. It is used to track time while doing any task. I have made it by using custom useTimer and useStopWatch Hook.",
+    type:"It is an individual project.",
+    area:"Whole app.",
+    stack:"HTML, CSS, Javascript, Reactjs, Chakra-UI.",
+    code:"https://github.com/Vishal27-com/Google-Timer-Clone/tree/main/timer-stopwatch",
+    links:"https://googletimerclone.netlify.app/"
 }]

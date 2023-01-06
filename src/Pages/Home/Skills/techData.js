@@ -14,6 +14,7 @@ import github from "../../../Resources/github.png"
 import netlify from "../../../Resources/netlify.png"
 import postman from "../../../Resources/postman.png"
 import vscode from '../../../Resources/VS-Code.png'
+import render from '../../../Resources/render.jpg'
 export const frontend=[
     {logo:html,title:"Html 5"},
     {logo:css,title:"CSS 3"},
@@ -33,6 +34,7 @@ export const tools=[
     {logo:git,title:"Git"},
     {logo:github,title:"Github"},
     {logo:netlify,title:"Netlify"},
+    {logo:render,title:"Render"},
     {logo:postman,title:"Postman"},
     {logo:vscode,title:"VS Code"},
 ]
