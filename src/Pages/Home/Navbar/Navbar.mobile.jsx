@@ -16,7 +16,7 @@ const NavbarMobile = ({navbar}) => {
                 fontSize='30px'
                 fontWeight='bold'>VG</Text>
        </Box> 
-      <Button ref={btnRef}  onClick={onOpen} bg={navbar?"#fff":"#fcc74c"}>
+      <Button ref={btnRef}  onClick={onOpen} bg={navbar?"#fff":"#5f27cd"}>
         <VStack spacing={1} >
         <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>
         <Box w="35px"  color="#FF5349" border='2px solid #FF5349' ></Box>

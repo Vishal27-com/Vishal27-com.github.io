@@ -9,7 +9,7 @@ const AboutMe = () => {
     const [state]=useState({
         title:"Hi, I am",
         titleTwo:"Vishal Gupta",
-        titleThree:"Aspiring Mern Stack Developer, proficient in writting clean and optimised code,good at Data Structure and Algorithms, skilled in teamwork, Looking to start a career as an entry-level professional with a reputed IT company. ",
+        titleThree:"Aspiring MERN Stack Developer, proficient in writing clean and optimized code, good at Data Structure and Algorithms, skilled in teamwork, Looking to start a career as an entry-level professional with a reputed IT company. ",
         image:Vishal
     })
     return (
@@ -17,7 +17,9 @@ const AboutMe = () => {
          <Flex direction={["column","column","row"]}>
         <Container w='100%'>
             <Box className={styles.imgBox}>
-                <Img  src={state.image} h={["150px","300px","300px"]} w={["150px","300px","300px"]} objectFit="cover" borderRadius='100%' />
+                <Img  src={state.image} h={["150px","300px","300px"]} w={["150px","300px","300px"]} objectFit="cover" borderRadius='100%'
+                boxShadow={'0px 0px 50px #fff'}
+                />
             </Box>
         </Container>
         <Box className={styles.introBox}>

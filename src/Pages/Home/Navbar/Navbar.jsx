@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     window.addEventListener("scroll",changeNavbarBg);
     return (
-        <Box  bg={navbar?"#fff":"#fcc74c"} position='sticky' top='0' zIndex={10} >
+        <Box  bg={navbar?"#fff":"#5f27cd"} position='sticky' top='0' zIndex={10} >
         <Box display={["none","none","block"]}>
             <Flex className={styles.container}>
             <Box>

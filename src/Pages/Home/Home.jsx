@@ -4,15 +4,15 @@ import Navbar from './Navbar/Navbar';
 import AboutMe from './About me/AboutMe';
 import TechSkills from "./Skills/TechSkills";
 import Footer from "./Footer/Footer";
-import Project from "./Project/Project"
 import Statistics from './Statistics/Statistics';
+import Projects from './Project/Projects';
 const Home = () => {
     return (
         <Box >
           <Navbar /> 
           <AboutMe />
           <TechSkills />
-          <Project/>
+          <Projects />
           <Statistics />
           <Footer />
         </Box>

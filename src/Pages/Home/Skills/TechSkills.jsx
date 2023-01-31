@@ -31,7 +31,7 @@ const TechSkills = () => {
         {/* Backend */}
       
         <Box className={styles.backend}>
-       <Text fontSize='30px'>Backend</Text>
+       <Text fontSize='30px' mb='20px'>Backend</Text>
        <Box >
 
        <SimpleGrid columns={[1,3,4]} gap="30px" >
@@ -51,7 +51,7 @@ const TechSkills = () => {
         </Box>
         {/* Tools */}
         <Box className={styles.backend}>
-       <Text fontSize='30px'>Tools</Text>
+       <Text fontSize='30px' mb='20px'>Tools</Text>
        <Box >
 
        <SimpleGrid columns={[1,3,4]} gap="30px" >
