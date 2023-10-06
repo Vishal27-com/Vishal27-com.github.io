@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.f7b20760.css",
-    "main.js": "/static/js/main.96b620ad.js",
+    "main.js": "/static/js/main.aeca7516.js",
     "static/media/ssense1.png": "/static/media/ssense1.59489616e0fe31d701e3.png",
     "static/media/Vishal_Gupta_Resume.pdf": "/static/media/Vishal_Gupta_Resume.4653838098c40e18e0da.pdf",
     "static/media/getHarvest1.png": "/static/media/getHarvest1.538b7b6e147f3f9e7b5a.png",
-    "static/media/Vishal.jpg": "/static/media/Vishal.d493ff32a82dc2412817.jpg",
     "static/media/netlify.png": "/static/media/netlify.63d286a96086fbcce027.png",
+    "static/media/Vishal.jpg": "/static/media/Vishal.0031f22dbbd559caf42e.jpg",
     "static/media/react.png": "/static/media/react.ac9979693620f0a96231.png",
     "static/media/Weather.png": "/static/media/Weather.cd8cd4288bab8e472482.png",
     "static/media/Q-Dashboard.png": "/static/media/Q-Dashboard.093043396a0ec586c950.png",
@@ -21,10 +21,10 @@
     "static/media/VS-Code.png": "/static/media/VS-Code.d99ab65a08c3e4c5fd73.png",
     "index.html": "/index.html",
     "main.f7b20760.css.map": "/static/css/main.f7b20760.css.map",
-    "main.96b620ad.js.map": "/static/js/main.96b620ad.js.map"
+    "main.aeca7516.js.map": "/static/js/main.aeca7516.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b20760.css",
-    "static/js/main.96b620ad.js"
+    "static/js/main.aeca7516.js"
   ]
 }
